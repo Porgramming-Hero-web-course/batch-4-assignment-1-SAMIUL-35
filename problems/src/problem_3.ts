@@ -19,4 +19,4 @@ return cnt;
 
 };
 
-console.log(countWordOccurrences("succesfully248 is great23. I love TypeScript!", "great234"));
+// console.log(countWordOccurrences("succesfully248 is great23. I love TypeScript!", "great234"));

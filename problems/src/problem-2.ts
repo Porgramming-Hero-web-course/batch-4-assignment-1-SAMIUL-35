@@ -7,4 +7,4 @@ const removeDuplicates=(arr:number[]):number[]=>{
   return result;
 
 }
-// console.log(removeDuplicates([ 2, 2, 3, 1, 1, 5]));
+// console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));

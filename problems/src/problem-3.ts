@@ -9,7 +9,7 @@ let cnt=0;
 
 for(const word of Words){
   // console.log(word);
-  if (word.includes(lower_W))
+  if (word===lower_W)
   {
     cnt++;
   }
@@ -19,4 +19,4 @@ return cnt;
 
 };
 
-// console.log(countWordOccurrences("succesfully248 is great23. I love TypeScript!", "great234"));
+// console.log(countWordOccurrences("I love typescript", "typescript"));

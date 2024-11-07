@@ -1,7 +1,7 @@
 
 const sumArray=(arr:number[]):number=>{
 
-  const sum=arr.reduce((total,current)=>total+current,0);
+  const sum:number=arr.reduce((total,current)=>total+current,0);
 
   return sum;
 
